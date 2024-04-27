@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-   <a href="https://github.com/StarPandaBeg/lulz-team-frontend">
+   <a href="https://github.com/StarPandaBeg/lulz-team-ocr-service">
     <img src=".github/logo.png" alt="Logo" width="128" height="128" />
    </a>
 
