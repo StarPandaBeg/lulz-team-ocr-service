@@ -1,7 +1,7 @@
 import requests
 
 # URL для POST-запроса
-url = "http://127.0.0.1:5000/parseimg"
+url = "http://127.0.0.1:5003/parseimg"
 
 # Открываем файл в бинарном режиме
 file = open("main.jpg", "rb")
@@ -10,7 +10,7 @@ file = open("main.jpg", "rb")
 files = {"file": file}
 
 # Отправляем POST-запрос с файлом
-response = requests.get(url, files=files)
+response = requests.post(url, files=files)
 
 # Выводим ответ на консоль
 print(response.text)
