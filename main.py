@@ -12,8 +12,8 @@ def hello_world():
         file = request.files['file']
 
         name = file.filename
-        file.save(name)
-        result = imgparser.process(name)
+        file.save("tmp/"+name)
+        result = imgparser.process("tmp/"+name)
         print(result)
 
         # if os.path.exists(name):
