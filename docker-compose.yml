@@ -7,3 +7,9 @@ services:
       - .:/app
     ports:
       - "5003:5003"
+    networks:
+      - pg_database
+
+networks:
+  pg_database:
+    external: true
